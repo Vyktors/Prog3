@@ -1,0 +1,18 @@
+C:\Users\GueMa1630770\OneDrive\Lab_01_IntroPOO\Lab_01_IntroPOO\bin\Debug\netcoreapp1.1\Lab_01_IntroPOO.deps.json
+C:\Users\GueMa1630770\OneDrive\Lab_01_IntroPOO\Lab_01_IntroPOO\bin\Debug\netcoreapp1.1\Lab_01_IntroPOO.runtimeconfig.json
+C:\Users\GueMa1630770\OneDrive\Lab_01_IntroPOO\Lab_01_IntroPOO\bin\Debug\netcoreapp1.1\Lab_01_IntroPOO.runtimeconfig.dev.json
+C:\Users\GueMa1630770\OneDrive\Lab_01_IntroPOO\Lab_01_IntroPOO\bin\Debug\netcoreapp1.1\Lab_01_IntroPOO.dll
+C:\Users\GueMa1630770\OneDrive\Lab_01_IntroPOO\Lab_01_IntroPOO\bin\Debug\netcoreapp1.1\Lab_01_IntroPOO.pdb
+C:\Users\GueMa1630770\OneDrive\Lab_01_IntroPOO\Lab_01_IntroPOO\obj\Debug\netcoreapp1.1\Lab_01_IntroPOO.csprojResolveAssemblyReference.cache
+C:\Users\GueMa1630770\OneDrive\Lab_01_IntroPOO\Lab_01_IntroPOO\obj\Debug\netcoreapp1.1\Lab_01_IntroPOO.AssemblyInfo.cs
+C:\Users\GueMa1630770\OneDrive\Lab_01_IntroPOO\Lab_01_IntroPOO\obj\Debug\netcoreapp1.1\Lab_01_IntroPOO.dll
+C:\Users\GueMa1630770\OneDrive\Lab_01_IntroPOO\Lab_01_IntroPOO\obj\Debug\netcoreapp1.1\Lab_01_IntroPOO.pdb
+C:\Users\GueMa1630770\Documents\Programmation\Semaine 1\Lab_01_IntroPOO\Lab_01_IntroPOO\bin\Debug\netcoreapp1.1\Lab_01_IntroPOO.deps.json
+C:\Users\GueMa1630770\Documents\Programmation\Semaine 1\Lab_01_IntroPOO\Lab_01_IntroPOO\bin\Debug\netcoreapp1.1\Lab_01_IntroPOO.runtimeconfig.json
+C:\Users\GueMa1630770\Documents\Programmation\Semaine 1\Lab_01_IntroPOO\Lab_01_IntroPOO\bin\Debug\netcoreapp1.1\Lab_01_IntroPOO.runtimeconfig.dev.json
+C:\Users\GueMa1630770\Documents\Programmation\Semaine 1\Lab_01_IntroPOO\Lab_01_IntroPOO\obj\Debug\netcoreapp1.1\Lab_01_IntroPOO.csprojResolveAssemblyReference.cache
+C:\Users\GueMa1630770\Documents\Programmation\Semaine 1\Lab_01_IntroPOO\Lab_01_IntroPOO\obj\Debug\netcoreapp1.1\Lab_01_IntroPOO.AssemblyInfo.cs
+C:\Users\GueMa1630770\Documents\Programmation\Semaine 1\Lab_01_IntroPOO\Lab_01_IntroPOO\obj\Debug\netcoreapp1.1\Lab_01_IntroPOO.dll
+C:\Users\GueMa1630770\Documents\Programmation\Semaine 1\Lab_01_IntroPOO\Lab_01_IntroPOO\obj\Debug\netcoreapp1.1\Lab_01_IntroPOO.pdb
+C:\Users\GueMa1630770\Documents\Programmation\Semaine 1\Lab_01_IntroPOO\Lab_01_IntroPOO\bin\Debug\netcoreapp1.1\Lab_01_IntroPOO.dll
+C:\Users\GueMa1630770\Documents\Programmation\Semaine 1\Lab_01_IntroPOO\Lab_01_IntroPOO\bin\Debug\netcoreapp1.1\Lab_01_IntroPOO.pdb
