@@ -1,0 +1,10 @@
+C:\Users\GueMa1630770\Documents\Programmation\Semaine 2\Lab2_Heritage\Lab2_Heritage\bin\Debug\netcoreapp1.1\Lab2_Heritage.deps.json
+C:\Users\GueMa1630770\Documents\Programmation\Semaine 2\Lab2_Heritage\Lab2_Heritage\bin\Debug\netcoreapp1.1\Lab2_Heritage.runtimeconfig.json
+C:\Users\GueMa1630770\Documents\Programmation\Semaine 2\Lab2_Heritage\Lab2_Heritage\bin\Debug\netcoreapp1.1\Lab2_Heritage.runtimeconfig.dev.json
+C:\Users\GueMa1630770\Documents\Programmation\Semaine 2\Lab2_Heritage\Lab2_Heritage\bin\Debug\netcoreapp1.1\Lab2_Heritage.dll
+C:\Users\GueMa1630770\Documents\Programmation\Semaine 2\Lab2_Heritage\Lab2_Heritage\bin\Debug\netcoreapp1.1\Lab2_Heritage.pdb
+C:\Users\GueMa1630770\Documents\Programmation\Semaine 2\Lab2_Heritage\Lab2_Heritage\obj\Debug\netcoreapp1.1\Lab2_Heritage.csprojResolveAssemblyReference.cache
+C:\Users\GueMa1630770\Documents\Programmation\Semaine 2\Lab2_Heritage\Lab2_Heritage\obj\Debug\netcoreapp1.1\Lab2_Heritage.csproj.CoreCompileInputs.cache
+C:\Users\GueMa1630770\Documents\Programmation\Semaine 2\Lab2_Heritage\Lab2_Heritage\obj\Debug\netcoreapp1.1\Lab2_Heritage.AssemblyInfo.cs
+C:\Users\GueMa1630770\Documents\Programmation\Semaine 2\Lab2_Heritage\Lab2_Heritage\obj\Debug\netcoreapp1.1\Lab2_Heritage.dll
+C:\Users\GueMa1630770\Documents\Programmation\Semaine 2\Lab2_Heritage\Lab2_Heritage\obj\Debug\netcoreapp1.1\Lab2_Heritage.pdb

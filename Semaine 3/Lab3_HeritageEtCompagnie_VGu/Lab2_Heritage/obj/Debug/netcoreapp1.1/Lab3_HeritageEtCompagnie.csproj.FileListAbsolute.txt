@@ -1,0 +1,10 @@
+C:\Users\GueMa1630770\Documents\_Cours CEGEP\Programmation - Michel Payette\Semaine 3\Lab3_HeritageEtCompagnie_VGu\Lab2_Heritage\bin\Debug\netcoreapp1.1\Lab3_HeritageEtCompagnie.deps.json
+C:\Users\GueMa1630770\Documents\_Cours CEGEP\Programmation - Michel Payette\Semaine 3\Lab3_HeritageEtCompagnie_VGu\Lab2_Heritage\bin\Debug\netcoreapp1.1\Lab3_HeritageEtCompagnie.runtimeconfig.json
+C:\Users\GueMa1630770\Documents\_Cours CEGEP\Programmation - Michel Payette\Semaine 3\Lab3_HeritageEtCompagnie_VGu\Lab2_Heritage\bin\Debug\netcoreapp1.1\Lab3_HeritageEtCompagnie.runtimeconfig.dev.json
+C:\Users\GueMa1630770\Documents\_Cours CEGEP\Programmation - Michel Payette\Semaine 3\Lab3_HeritageEtCompagnie_VGu\Lab2_Heritage\bin\Debug\netcoreapp1.1\Lab3_HeritageEtCompagnie.dll
+C:\Users\GueMa1630770\Documents\_Cours CEGEP\Programmation - Michel Payette\Semaine 3\Lab3_HeritageEtCompagnie_VGu\Lab2_Heritage\bin\Debug\netcoreapp1.1\Lab3_HeritageEtCompagnie.pdb
+C:\Users\GueMa1630770\Documents\_Cours CEGEP\Programmation - Michel Payette\Semaine 3\Lab3_HeritageEtCompagnie_VGu\Lab2_Heritage\obj\Debug\netcoreapp1.1\Lab3_HeritageEtCompagnie.csprojResolveAssemblyReference.cache
+C:\Users\GueMa1630770\Documents\_Cours CEGEP\Programmation - Michel Payette\Semaine 3\Lab3_HeritageEtCompagnie_VGu\Lab2_Heritage\obj\Debug\netcoreapp1.1\Lab3_HeritageEtCompagnie.csproj.CoreCompileInputs.cache
+C:\Users\GueMa1630770\Documents\_Cours CEGEP\Programmation - Michel Payette\Semaine 3\Lab3_HeritageEtCompagnie_VGu\Lab2_Heritage\obj\Debug\netcoreapp1.1\Lab3_HeritageEtCompagnie.AssemblyInfo.cs
+C:\Users\GueMa1630770\Documents\_Cours CEGEP\Programmation - Michel Payette\Semaine 3\Lab3_HeritageEtCompagnie_VGu\Lab2_Heritage\obj\Debug\netcoreapp1.1\Lab3_HeritageEtCompagnie.dll
+C:\Users\GueMa1630770\Documents\_Cours CEGEP\Programmation - Michel Payette\Semaine 3\Lab3_HeritageEtCompagnie_VGu\Lab2_Heritage\obj\Debug\netcoreapp1.1\Lab3_HeritageEtCompagnie.pdb
