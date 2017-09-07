@@ -6,16 +6,16 @@ namespace Lab3_HeritageEtCompagnie
 {
     class MagicienBlanc:Magicien
     {
+        //Variables
+
         public MagicienBlanc(string _nom, int _pv) : base(_nom, _pv)
         {
-            
+            pd = 3;
             Console.WriteLine("un magicien blanc");
         }
 
-        //Variables
+        
 
-        
-        
         public void soigner(Personnage cible)
         {
             if(!(cible is MagicienNoir))
@@ -28,6 +28,13 @@ namespace Lab3_HeritageEtCompagnie
                 Console.WriteLine("Impossible de soigner la cible");
             }
             
+        }
+
+        private bool recevoirDegats(int degats)
+        {
+            pv = 0;
+            Console.WriteLine(nom + " est mort");
+            return true;
         }
     }
 }

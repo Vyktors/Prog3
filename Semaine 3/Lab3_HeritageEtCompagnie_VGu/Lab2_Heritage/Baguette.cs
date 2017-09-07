@@ -6,12 +6,16 @@ namespace Lab3_HeritageEtCompagnie
 {
     class Baguette:Arme
     {
-        public Baguette(string _nom, int _dmg, string _couleur) : base(_nom, _dmg)
+        //Variables
+        private string couleur;
+
+        public Baguette(string _nom, string _couleur) : base(_nom)
         {
+            dmg = 90;
             couleur = _couleur;
         }
 
-        private string couleur;
+        
 
         
     }
