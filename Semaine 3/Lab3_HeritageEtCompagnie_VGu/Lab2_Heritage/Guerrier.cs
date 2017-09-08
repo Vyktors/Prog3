@@ -24,7 +24,7 @@ namespace Lab3_HeritageEtCompagnie
             {
                 Console.WriteLine("Je suis " + nom + " et je frappe " + cible.Nom + " comme un cretin ");
 
-                if(infligerDegats(cible, epee.Dmg))
+                if(infligerDegats(cible, epee.Dmg)) //Si tu qqun
                 {
                     this.epee.lvlUp();
                 }

@@ -8,9 +8,11 @@ namespace Lab3_HeritageEtCompagnie
     {
         public Jeu()
         {
-            MagicienNoir magN = new MagicienNoir("Bob", 100);
-            MagicienBlanc magB = new MagicienBlanc("Magicien Blanc", 100);
-            Guerrier guer1 = new Guerrier("Guerrier 1 Bob", 100);
+            Affichage affichage = new Affichage();
+            /*
+            MagicienNoir magN = new MagicienNoir("Bob MG", 100);
+            MagicienBlanc magB = new MagicienBlanc("Claude Magicien Blanc", 100);
+            Guerrier guer1 = new Guerrier("Guerrier 1 boby", 100);
             Guerrier guer2 = new Guerrier("Guerrier 2 Jacques", 100);
 
 
@@ -22,6 +24,7 @@ namespace Lab3_HeritageEtCompagnie
             magB.soigner(magN);
 
             magB.soigner(guer1);
+            */
         }
     }
 }
