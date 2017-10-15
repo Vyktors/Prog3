@@ -9,22 +9,51 @@ namespace Lab3_HeritageEtCompagnie
         public Jeu()
         {
             Affichage affichage = new Affichage();
-            /*
-            MagicienNoir magN = new MagicienNoir("Bob MG", 100);
-            MagicienBlanc magB = new MagicienBlanc("Claude Magicien Blanc", 100);
-            Guerrier guer1 = new Guerrier("Guerrier 1 boby", 100);
-            Guerrier guer2 = new Guerrier("Guerrier 2 Jacques", 100);
+
+            List<Personnage> listPerso = new List<Personnage>();
+            bool endofgame = false;
+          
+            creerPerso();                       
+
+            do
+            {
+                foreach (Personnage perso in listPerso)
+                {
+                    if(perso.isDead())
+                    {
+                        return;
+                    }
+                    else
+                    {
+                        //Se déplacer/Attaquer / or both
+                        perso.jouer();
+                    }
+                    
+                }
 
 
-            //Actions
-            magN.Attaquer(guer1);
 
-            guer1.Attaquer(magN);
+            } while (!endofgame);
 
-            magB.soigner(magN);
-
-            magB.soigner(guer1);
-            */
+            
+            void creerPerso()
+            {
+                for (int i = 0; i < 4; i++)
+                {
+                    Guerrier guer = new Guerrier("Bob" + i, 100);
+                    listPerso.Add(guer);
+                }
+                for (int i = 0; i < 2; i++)
+                {
+                    MagicienBlanc mG = new MagicienBlanc("Gandalf" + i, 100);
+                    listPerso.Add(mG);
+                }
+                for (int i = 0; i < 3; i++)
+                {
+                    MagicienNoir mN = new MagicienNoir("VolDeMort" + i, 100);
+                    listPerso.Add(mN);
+                }
+            }
         }
     }
 }

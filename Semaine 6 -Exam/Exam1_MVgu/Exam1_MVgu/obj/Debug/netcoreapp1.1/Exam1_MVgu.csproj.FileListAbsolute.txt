@@ -1,0 +1,10 @@
+C:\Users\GueMa1630770\Documents\_Cours CEGEP\Programmation - Michel Payette\Semaine 6 -Exam\Exam1_MVgu\Exam1_MVgu\bin\Debug\netcoreapp1.1\Exam1_MVgu.deps.json
+C:\Users\GueMa1630770\Documents\_Cours CEGEP\Programmation - Michel Payette\Semaine 6 -Exam\Exam1_MVgu\Exam1_MVgu\bin\Debug\netcoreapp1.1\Exam1_MVgu.runtimeconfig.json
+C:\Users\GueMa1630770\Documents\_Cours CEGEP\Programmation - Michel Payette\Semaine 6 -Exam\Exam1_MVgu\Exam1_MVgu\bin\Debug\netcoreapp1.1\Exam1_MVgu.runtimeconfig.dev.json
+C:\Users\GueMa1630770\Documents\_Cours CEGEP\Programmation - Michel Payette\Semaine 6 -Exam\Exam1_MVgu\Exam1_MVgu\bin\Debug\netcoreapp1.1\Exam1_MVgu.dll
+C:\Users\GueMa1630770\Documents\_Cours CEGEP\Programmation - Michel Payette\Semaine 6 -Exam\Exam1_MVgu\Exam1_MVgu\bin\Debug\netcoreapp1.1\Exam1_MVgu.pdb
+C:\Users\GueMa1630770\Documents\_Cours CEGEP\Programmation - Michel Payette\Semaine 6 -Exam\Exam1_MVgu\Exam1_MVgu\obj\Debug\netcoreapp1.1\Exam1_MVgu.csprojResolveAssemblyReference.cache
+C:\Users\GueMa1630770\Documents\_Cours CEGEP\Programmation - Michel Payette\Semaine 6 -Exam\Exam1_MVgu\Exam1_MVgu\obj\Debug\netcoreapp1.1\Exam1_MVgu.csproj.CoreCompileInputs.cache
+C:\Users\GueMa1630770\Documents\_Cours CEGEP\Programmation - Michel Payette\Semaine 6 -Exam\Exam1_MVgu\Exam1_MVgu\obj\Debug\netcoreapp1.1\Exam1_MVgu.AssemblyInfo.cs
+C:\Users\GueMa1630770\Documents\_Cours CEGEP\Programmation - Michel Payette\Semaine 6 -Exam\Exam1_MVgu\Exam1_MVgu\obj\Debug\netcoreapp1.1\Exam1_MVgu.dll
+C:\Users\GueMa1630770\Documents\_Cours CEGEP\Programmation - Michel Payette\Semaine 6 -Exam\Exam1_MVgu\Exam1_MVgu\obj\Debug\netcoreapp1.1\Exam1_MVgu.pdb

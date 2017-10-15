@@ -12,7 +12,7 @@ namespace Lab3_HeritageEtCompagnie
         private int rows;
         private int cols;
 
-        private Cellule[,] grid;
+        public Cellule[,] grid;
 
         public Affichage()
         {
@@ -23,7 +23,7 @@ namespace Lab3_HeritageEtCompagnie
             
             iniGrille();
             afficherGrille();
-            Console.SetWindowPosition(0, 0);
+            
         }
 
         public void iniGrille()
@@ -46,7 +46,10 @@ namespace Lab3_HeritageEtCompagnie
                     grid[i, j].show();
                 }
             }
-
+            
+            Console.SetWindowPosition(0, 0);
         }
+
+
     }
 }
