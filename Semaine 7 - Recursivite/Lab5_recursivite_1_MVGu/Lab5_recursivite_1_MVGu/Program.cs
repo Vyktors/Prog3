@@ -90,10 +90,10 @@ namespace Lab5_recursivite_1_MVGu
                         probleme1.Start();
                         break;
                     case 2:
-                        //probleme2.Start();
+                        probleme2.Start();
                         break;
                     case 3:
-                        //probleme3.Start();
+                        probleme3.Start();
                         break;
                     case 4:
                         Environment.Exit(0);

@@ -14,7 +14,7 @@ namespace Lab5_recursivite_1_MVGu
         int[,] grid;
 
         int CptBonneSolution;
-        //S'exécute une seule fois au démarage du programme
+        //S'exécute une seule fois au démarrage du programme
         public probleme1()
         {            
             grid = new int[SIZE, SIZE];
@@ -24,7 +24,6 @@ namespace Lab5_recursivite_1_MVGu
         public void Start()
         {
             CptBonneSolution = 0;
-
             Console.Clear(); 
             
             Place_Reine_Securite(1, 0, 0, grid);
@@ -171,7 +170,7 @@ namespace Lab5_recursivite_1_MVGu
             }
     }
 
-        private bool Imprime_Solution(int _NoSln, int[,] _grid)
+        private void Imprime_Solution(int _NoSln, int[,] _grid)
         {
             const string CARACTERE_REINE = "X";
             const string CARACTERE_VIDE = "\u00B7";
@@ -223,7 +222,7 @@ namespace Lab5_recursivite_1_MVGu
             Console.WriteLine("");
             
 
-            return true;
+
         }
 
         string repetechar(int nbrIteration, string symbole)
