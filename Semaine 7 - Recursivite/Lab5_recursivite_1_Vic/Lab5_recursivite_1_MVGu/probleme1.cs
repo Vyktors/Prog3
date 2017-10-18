@@ -10,7 +10,7 @@ namespace Lab5_recursivite_1_MVGu
 {
     class probleme1
     {
-        const int SIZE = 2;
+        const int SIZE = 8;
         int[,] grid;
 
         int CptBonneSolution;
@@ -19,35 +19,15 @@ namespace Lab5_recursivite_1_MVGu
         {
             CptBonneSolution = 0;
             grid = new int[SIZE, SIZE];
-            //UnitTEST - WORKING 
-            /*grid[0, 0] = 1;
-            grid[0, 3] = 1;
-
-            for (int i = 0; i < SIZE; i++)
-            {
-                chkCol = Chk_Securite_Colonne(1, i, i, grid);
-                chkLigne = Chk_Securite_Ligne(1, i, i, grid);
-                chkDia = Chk_Securite_Diagonale(1, i, i, grid);
-            }
-            */
-
-
         }
 
         public void Start()
         {
             Console.Clear();
-
          
-
-            //   Parcourir les colonnes du damier
-            for (int i = 0; i < SIZE; i++)
-            {
-                Place_Reine_Securite(1, i, 0, grid);
-            }
-            
-
+            Place_Reine_Securite(1, 0, 0, grid);
         }
+
 
         /* Place_Reine_Securité
              Place une reine en sécurité et retourne VRAI
@@ -85,7 +65,30 @@ namespace Lab5_recursivite_1_MVGu
                     // Je suis en sécurité sur la dernière ligne de la colonne alors solution viable  
                     CptBonneSolution++;
                     Imprime_Solution(_NoSln, _grid);
-                    return true;
+
+                    //retourne à l'état comme si ce n'était pas une bonne solution (ce l'est) pour trouver d'autres solutions
+                    _grid[_col, _ligne] = 0;
+
+                    //continu quand même à chercher d'autre solutions
+                    if (_ligne + 1 >= SIZE)
+                    {
+                        // Fin de la colonne pas d'autre solution
+                        return false;
+                    }
+
+                    // La solution est bonne,mais on check la prochaine ligne pour d'autre solutions
+                    else if (Place_Reine_Securite(_NoSln, _col, _ligne + 1, _grid))
+                    {
+                        // Implique que tous les enfants sont vrais donc la solution est vrai
+
+                        return true;
+
+                    }
+                    else
+                    {
+                        // Implique qu'il n'y pas de solution chez les enfants
+                        return false;
+                    }
                 }
                 else if(Place_Reine_Securite(_NoSln, _col + 1, 0, _grid))
                 {
@@ -172,7 +175,7 @@ namespace Lab5_recursivite_1_MVGu
         private bool Imprime_Solution(int _NoSln, int[,] _grid)
         {
             const string CARACTERE_REINE = "X";
-            const string CARACTERE_VIDE = "O";
+            const string CARACTERE_VIDE = "\u00B7";
             const string CARACTERE_BORDURE_HAUT_COIN_GAUCHE = " ";
             const string CARACTERE_BORDURE_HAUT = "_";
             const string CARACTERE_BORDURE_HAUT_COIN_DROIT = " ";
@@ -270,7 +273,7 @@ namespace Lab5_recursivite_1_MVGu
 
             //Diagonale Bas Droit 
             inc = 1;
-            while (_ligne + inc < SIZE - 1 && _col + inc < SIZE - 1 && chk == true) 
+            while (_ligne + inc < SIZE  && _col + inc < SIZE  && chk == true) 
             {
                 
                 if (_grid[_col+ inc,_ligne+inc] == NoSln)
@@ -283,7 +286,7 @@ namespace Lab5_recursivite_1_MVGu
 
             //Diagonale Haut Droit
             inc = 1;
-            while (_ligne - inc >= 0 && _col + inc < SIZE - 1 && chk == true)
+            while (_ligne - inc >= 0 && _col + inc < SIZE  && chk == true)
             {
                 
                 if (_grid[_col + inc, _ligne - inc] == NoSln)
@@ -296,7 +299,7 @@ namespace Lab5_recursivite_1_MVGu
 
             //Diagonale Bas Gauche
             inc = 1;
-            while (_ligne + inc < SIZE - 1 && _col - inc >= 0 && chk == true)
+            while (_ligne + inc < SIZE  && _col - inc >= 0 && chk == true)
             {
                 
                 if (_grid[_col - inc, _ligne + inc] == NoSln)
