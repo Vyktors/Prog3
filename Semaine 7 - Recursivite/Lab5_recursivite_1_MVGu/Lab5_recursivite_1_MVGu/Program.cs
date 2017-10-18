@@ -24,14 +24,16 @@ namespace Lab5_recursivite_1_MVGu
 
             do
             {
-
                 showMenu();
 
                 Console.WriteLine("\nProgramme terminé.");
                 Console.WriteLine("Touchez une touche pour revenir au menu");
                 Console.ReadKey();
             } while (true);
-            //Retourne le text centrer par rapport à la largeur de la fenêtre
+
+
+
+            //Retourne le text centré par rapport à la largeur de la fenêtre
             string centerText(string text)
             {
                 string centeredText;

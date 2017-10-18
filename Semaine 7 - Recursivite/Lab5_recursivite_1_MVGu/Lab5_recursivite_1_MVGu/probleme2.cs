@@ -8,5 +8,6 @@ namespace Lab5_recursivite_1_MVGu
 {
     class probleme2
     {
+
     }
 }

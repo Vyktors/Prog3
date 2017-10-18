@@ -14,18 +14,19 @@ namespace Lab5_recursivite_1_MVGu
         int[,] grid;
 
         int CptBonneSolution;
-
+        //S'exécute une seule fois au démarage du programme
         public probleme1()
-        {
-            
+        {            
             grid = new int[SIZE, SIZE];
         }
 
+        //S'exécute chaque fois que l'utilisateur choisi de partir le problème #1
         public void Start()
         {
             CptBonneSolution = 0;
 
-            Console.Clear();        
+            Console.Clear(); 
+            
             Place_Reine_Securite(1, 0, 0, grid);
         }
 
@@ -224,6 +225,19 @@ namespace Lab5_recursivite_1_MVGu
 
             return true;
         }
+
+        string repetechar(int nbrIteration, string symbole)
+        {
+            string text = "";
+
+            for (int i = 0; i < nbrIteration; i++)
+            {
+                text += symbole;
+            }
+            return text;
+        }
+
+        //Vérifie chaque ligne et retourne vrai si aucune rein n'est positionnée dans un même ligne que la position envoyée
         private bool Chk_Securite_Ligne(int NoSln, int _col, int _ligne, int[,] _grid)
         {
             for (int i = 0; i < SIZE; i++)
@@ -237,19 +251,7 @@ namespace Lab5_recursivite_1_MVGu
             return true;
         }
 
-        string repetechar(int nbrIteration, string symbole)
-        {
-            string text = "";
-
-            for (int i = 0; i < nbrIteration; i++)
-            {
-                text += symbole;
-            }
-            return text;
-        }
-
-
-
+        //Vérifie chaque colonne et retourne vrai si aucune rein n'est positionnée dans un même colonne que la position envoyée
         private bool Chk_Securite_Colonne(int NoSln, int _col, int _ligne, int[,] _grid)
         {
             for (int i = 0; i < SIZE; i++)
@@ -264,6 +266,7 @@ namespace Lab5_recursivite_1_MVGu
             return true;
         }
 
+        //Vérifie chaque diagonale et retourne vrai si aucune reine n'est positionné dans une même diagonale que la position envoyée.
         private bool Chk_Securite_Diagonale(int NoSln, int _col, int _ligne, int[,] _grid)
         {
             int inc;
