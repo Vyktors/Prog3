@@ -10,7 +10,7 @@ namespace Lab5_recursivite_1_MVGu
 {
     class probleme1
     {
-        const int SIZE = 8;
+        const int SIZE = 6;
         int[,] grid;
 
         int CptBonneSolution;
@@ -37,17 +37,13 @@ namespace Lab5_recursivite_1_MVGu
         public void Start()
         {
             Console.Clear();
+
+         
+
             //   Parcourir les colonnes du damier
             for (int i = 0; i < SIZE; i++)
             {
-                if (Place_Reine_Securite(1, i, 0, grid))
-                {
-                    Console.WriteLine("Colonne " + i + " a au moins une solution");
-                }
-                else
-                {
-                    Console.WriteLine("Colonne " + i + " n'a pas de solution");
-                }
+                Place_Reine_Securite(1, i, 0, grid);
             }
             
 
@@ -175,8 +171,58 @@ namespace Lab5_recursivite_1_MVGu
 
         private bool Imprime_Solution(int _NoSln, int[,] _grid)
         {
+            const string CARACTERE_REINE = "X";
+            const string CARACTERE_VIDE = "O";
+            const string CARACTERE_BORDURE_HAUT_COIN_GAUCHE = "1";
+            const string CARACTERE_BORDURE_HAUT = "_";
+            const string CARACTERE_BORDURE_HAUT_COIN_DROIT = "2";
 
-            Console.WriteLine("Solution " + _NoSln + "  Cumulatif: " + CptBonneSolution);
+            const string CARACTERE_BORDURE_BAS_COIN_GAUCHE = "3";
+            const string CARACTERE_BORDURE_BAS = "\u035E";
+            const string CARACTERE_BORDURE_BAS_COIN_DROIT = "4";
+
+            const string CARACTERE_BORDURE_COTE = "|";
+
+
+            String sCaractereAjoute = "";
+            String[] LigneAffichage = new String[SIZE];
+
+            Console.OutputEncoding = System.Text.Encoding.UTF8;
+
+            Console.WriteLine("Solution racine:" + _NoSln);
+            Console.WriteLine("Nombre cumulatif de solution: " + CptBonneSolution);
+            
+            for (int iColonne=0; iColonne < SIZE; iColonne++)
+            {
+                for (int iligne = 0; iligne < SIZE; iligne++)
+                {
+                    // Si la valeur dans la grille est différente de 0 alors présence d'une reine
+                    // La vrai vérification devrait être == _NoSln
+                    // todo
+
+                    if (_grid[iColonne, iligne] != 0)
+                    {
+                        sCaractereAjoute = CARACTERE_REINE;
+                    }
+                    else
+                    {
+                        sCaractereAjoute = CARACTERE_VIDE;
+                    };
+
+                    LigneAffichage[iligne] = LigneAffichage[iligne] + sCaractereAjoute;
+                };
+
+                
+            };
+
+            Console.WriteLine(CARACTERE_BORDURE_HAUT_COIN_GAUCHE + repetechar(SIZE, CARACTERE_BORDURE_HAUT)+ CARACTERE_BORDURE_HAUT_COIN_DROIT);
+            for (int i=0; i < SIZE; i++)
+            {
+                Console.WriteLine(CARACTERE_BORDURE_COTE + LigneAffichage[i]+ CARACTERE_BORDURE_COTE);
+            };
+            Console.WriteLine(CARACTERE_BORDURE_BAS_COIN_GAUCHE + repetechar(SIZE, CARACTERE_BORDURE_BAS) + CARACTERE_BORDURE_BAS_COIN_DROIT);
+            Console.WriteLine("");
+
             
             return true;
         }
@@ -192,6 +238,19 @@ namespace Lab5_recursivite_1_MVGu
            
             return true;
         }
+
+        string repetechar(int nbrIteration, string symbole)
+        {
+            string text = "";
+
+            for (int i = 0; i < nbrIteration; i++)
+            {
+                text += symbole;
+            }
+            return text;
+        }
+
+
 
         private bool Chk_Securite_Colonne(int NoSln, int _col, int _ligne, int[,] _grid)
         {
