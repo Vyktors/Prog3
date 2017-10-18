@@ -50,7 +50,7 @@ namespace Lab5_recursivite_1_MVGu
                     break;
             }
 
-            Console.WriteLine("\nTouchez une touche pour terminer le programme");
+
             Console.ReadKey();
         }
 

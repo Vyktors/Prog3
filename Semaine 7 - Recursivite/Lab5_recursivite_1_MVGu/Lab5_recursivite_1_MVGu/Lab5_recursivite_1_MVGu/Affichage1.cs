@@ -8,7 +8,7 @@ namespace Lab5_recursivite_1_MVGu
 {
     class Affichage1
     {
-        private const int width = 20; //Doit être un multiple de deux, défini la largeur des cases Entre 2-20
+        private const int width = 10; //Doit être un multiple de deux, défini la largeur des cases Entre 2-20
 
 
         private int rows;
@@ -16,14 +16,13 @@ namespace Lab5_recursivite_1_MVGu
 
         public Cellule[,] grid;
 
-        public Affichage1(int _size)
+        public Affichage1()
         {
-            
-            rows = _size;
-            cols = _size;
+
+            rows = 8;
+            cols = 8;
             grid = new Cellule[cols, rows];
 
-            Console.SetWindowSize(_size * 26, _size * 13);
 
             iniGrille();
             afficherGrille();

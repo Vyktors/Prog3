@@ -11,9 +11,30 @@ C:\Users\Stephane\Documents\Travaux Mathieu\Prog3-master\Semaine 7 - Recursivite
 C:\Users\Stephane\Documents\Travaux Mathieu\Prog3-master\Semaine 7 - Recursivite\Lab5_recursivite_1_MVGu\Lab5_recursivite_1_MVGu\obj\Debug\Lab5_recursivite_1_MVGu.csprojResolveAssemblyReference.cache
 C:\Users\Stephane\Documents\Travaux Mathieu\Prog3-master\Semaine 7 - Recursivite\Lab5_recursivite_1_MVGu\Lab5_recursivite_1_MVGu\obj\Debug\Lab5_recursivite_1_MVGu.exe
 C:\Users\Stephane\Documents\Travaux Mathieu\Prog3-master\Semaine 7 - Recursivite\Lab5_recursivite_1_MVGu\Lab5_recursivite_1_MVGu\obj\Debug\Lab5_recursivite_1_MVGu.pdb
-C:\Users\Stephane\Documents\Travaux Mathieu\Prog3\Semaine 7 - Recursivite\Lab5_recursivite_1_MVGu\Lab5_recursivite_1_MVGu\bin\Debug\Lab5_recursivite_1_MVGu.exe.config
-C:\Users\Stephane\Documents\Travaux Mathieu\Prog3\Semaine 7 - Recursivite\Lab5_recursivite_1_MVGu\Lab5_recursivite_1_MVGu\bin\Debug\Lab5_recursivite_1_MVGu.exe
-C:\Users\Stephane\Documents\Travaux Mathieu\Prog3\Semaine 7 - Recursivite\Lab5_recursivite_1_MVGu\Lab5_recursivite_1_MVGu\bin\Debug\Lab5_recursivite_1_MVGu.pdb
-C:\Users\Stephane\Documents\Travaux Mathieu\Prog3\Semaine 7 - Recursivite\Lab5_recursivite_1_MVGu\Lab5_recursivite_1_MVGu\obj\Debug\Lab5_recursivite_1_MVGu.csprojResolveAssemblyReference.cache
-C:\Users\Stephane\Documents\Travaux Mathieu\Prog3\Semaine 7 - Recursivite\Lab5_recursivite_1_MVGu\Lab5_recursivite_1_MVGu\obj\Debug\Lab5_recursivite_1_MVGu.exe
-C:\Users\Stephane\Documents\Travaux Mathieu\Prog3\Semaine 7 - Recursivite\Lab5_recursivite_1_MVGu\Lab5_recursivite_1_MVGu\obj\Debug\Lab5_recursivite_1_MVGu.pdb
+C:\Users\GueMa1630770\Documents\_Cours CEGEP\Programmation - Michel Payette\Semaine 7 - Recursivite\Lab5_recursivite_1_MVGu\Lab5_recursivite_1_MVGu\bin\Debug\Lab5_recursivite_1_MVGu.exe.config
+C:\Users\GueMa1630770\Documents\_Cours CEGEP\Programmation - Michel Payette\Semaine 7 - Recursivite\Lab5_recursivite_1_MVGu\Lab5_recursivite_1_MVGu\bin\Debug\Lab5_recursivite_1_MVGu.exe
+C:\Users\GueMa1630770\Documents\_Cours CEGEP\Programmation - Michel Payette\Semaine 7 - Recursivite\Lab5_recursivite_1_MVGu\Lab5_recursivite_1_MVGu\bin\Debug\Lab5_recursivite_1_MVGu.pdb
+C:\Users\GueMa1630770\Documents\_Cours CEGEP\Programmation - Michel Payette\Semaine 7 - Recursivite\Lab5_recursivite_1_MVGu\Lab5_recursivite_1_MVGu\obj\Debug\Lab5_recursivite_1_MVGu.csprojResolveAssemblyReference.cache
+C:\Users\GueMa1630770\Documents\_Cours CEGEP\Programmation - Michel Payette\Semaine 7 - Recursivite\Lab5_recursivite_1_MVGu\Lab5_recursivite_1_MVGu\obj\Debug\Lab5_recursivite_1_MVGu.csproj.CoreCompileInputs.cache
+C:\Users\GueMa1630770\Documents\_Cours CEGEP\Programmation - Michel Payette\Semaine 7 - Recursivite\Lab5_recursivite_1_MVGu\Lab5_recursivite_1_MVGu\obj\Debug\Lab5_recursivite_1_MVGu.exe
+C:\Users\GueMa1630770\Documents\_Cours CEGEP\Programmation - Michel Payette\Semaine 7 - Recursivite\Lab5_recursivite_1_MVGu\Lab5_recursivite_1_MVGu\obj\Debug\Lab5_recursivite_1_MVGu.pdb
+C:\Users\Stephane\Documents\Travaux Mathieu\Prog3\Semaine 7 - Recursivite\Lab5_recursivite_1_Vic\Lab5_recursivite_1_MVGu\bin\Debug\Lab5_recursivite_1_MVGu.exe.config
+C:\Users\Stephane\Documents\Travaux Mathieu\Prog3\Semaine 7 - Recursivite\Lab5_recursivite_1_Vic\Lab5_recursivite_1_MVGu\bin\Debug\Lab5_recursivite_1_MVGu.exe
+C:\Users\Stephane\Documents\Travaux Mathieu\Prog3\Semaine 7 - Recursivite\Lab5_recursivite_1_Vic\Lab5_recursivite_1_MVGu\bin\Debug\Lab5_recursivite_1_MVGu.pdb
+C:\Users\Stephane\Documents\Travaux Mathieu\Prog3\Semaine 7 - Recursivite\Lab5_recursivite_1_Vic\Lab5_recursivite_1_MVGu\obj\Debug\Lab5_recursivite_1_MVGu.csprojResolveAssemblyReference.cache
+C:\Users\Stephane\Documents\Travaux Mathieu\Prog3\Semaine 7 - Recursivite\Lab5_recursivite_1_Vic\Lab5_recursivite_1_MVGu\obj\Debug\Lab5_recursivite_1_MVGu.exe
+C:\Users\Stephane\Documents\Travaux Mathieu\Prog3\Semaine 7 - Recursivite\Lab5_recursivite_1_Vic\Lab5_recursivite_1_MVGu\obj\Debug\Lab5_recursivite_1_MVGu.pdb
+C:\Users\gueri\Documents\GitHub\Prog3\Semaine 7 - Recursivite\Lab5_recursivite_1_Vic\Lab5_recursivite_1_MVGu\bin\Debug\Lab5_recursivite_1_MVGu.exe.config
+C:\Users\gueri\Documents\GitHub\Prog3\Semaine 7 - Recursivite\Lab5_recursivite_1_Vic\Lab5_recursivite_1_MVGu\bin\Debug\Lab5_recursivite_1_MVGu.exe
+C:\Users\gueri\Documents\GitHub\Prog3\Semaine 7 - Recursivite\Lab5_recursivite_1_Vic\Lab5_recursivite_1_MVGu\bin\Debug\Lab5_recursivite_1_MVGu.pdb
+C:\Users\gueri\Documents\GitHub\Prog3\Semaine 7 - Recursivite\Lab5_recursivite_1_Vic\Lab5_recursivite_1_MVGu\obj\Debug\Lab5_recursivite_1_MVGu.csprojResolveAssemblyReference.cache
+C:\Users\gueri\Documents\GitHub\Prog3\Semaine 7 - Recursivite\Lab5_recursivite_1_Vic\Lab5_recursivite_1_MVGu\obj\Debug\Lab5_recursivite_1_MVGu.csproj.CoreCompileInputs.cache
+C:\Users\gueri\Documents\GitHub\Prog3\Semaine 7 - Recursivite\Lab5_recursivite_1_Vic\Lab5_recursivite_1_MVGu\obj\Debug\Lab5_recursivite_1_MVGu.exe
+C:\Users\gueri\Documents\GitHub\Prog3\Semaine 7 - Recursivite\Lab5_recursivite_1_Vic\Lab5_recursivite_1_MVGu\obj\Debug\Lab5_recursivite_1_MVGu.pdb
+C:\Users\gueri\Documents\GitHub\Prog3\Semaine 7 - Recursivite\Lab5_recursivite_1_MVGu\Lab5_recursivite_1_MVGu\bin\Debug\Lab5_recursivite_1_MVGu.exe.config
+C:\Users\gueri\Documents\GitHub\Prog3\Semaine 7 - Recursivite\Lab5_recursivite_1_MVGu\Lab5_recursivite_1_MVGu\bin\Debug\Lab5_recursivite_1_MVGu.exe
+C:\Users\gueri\Documents\GitHub\Prog3\Semaine 7 - Recursivite\Lab5_recursivite_1_MVGu\Lab5_recursivite_1_MVGu\bin\Debug\Lab5_recursivite_1_MVGu.pdb
+C:\Users\gueri\Documents\GitHub\Prog3\Semaine 7 - Recursivite\Lab5_recursivite_1_MVGu\Lab5_recursivite_1_MVGu\obj\Debug\Lab5_recursivite_1_MVGu.csprojResolveAssemblyReference.cache
+C:\Users\gueri\Documents\GitHub\Prog3\Semaine 7 - Recursivite\Lab5_recursivite_1_MVGu\Lab5_recursivite_1_MVGu\obj\Debug\Lab5_recursivite_1_MVGu.csproj.CoreCompileInputs.cache
+C:\Users\gueri\Documents\GitHub\Prog3\Semaine 7 - Recursivite\Lab5_recursivite_1_MVGu\Lab5_recursivite_1_MVGu\obj\Debug\Lab5_recursivite_1_MVGu.exe
+C:\Users\gueri\Documents\GitHub\Prog3\Semaine 7 - Recursivite\Lab5_recursivite_1_MVGu\Lab5_recursivite_1_MVGu\obj\Debug\Lab5_recursivite_1_MVGu.pdb
