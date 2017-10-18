@@ -76,7 +76,7 @@ namespace Lab5_recursivite_1_MVGu
                         Console.WriteLine("Veuillez entrer un nombre valide!");
                     }
                     //Gère si l'utilisateur entre un charactère qui ne se trouve pas entre 1 et 4
-                    if (choix > 4)
+                    if (choix == 0 || choix > 4)
                     {
                         Console.WriteLine("Veuillez entrer un nombre entre 1 et 4!");
                     }
