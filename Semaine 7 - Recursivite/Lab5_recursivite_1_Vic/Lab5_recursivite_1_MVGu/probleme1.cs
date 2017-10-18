@@ -10,7 +10,7 @@ namespace Lab5_recursivite_1_MVGu
 {
     class probleme1
     {
-        const int SIZE = 6;
+        const int SIZE = 2;
         int[,] grid;
 
         int CptBonneSolution;
@@ -173,13 +173,13 @@ namespace Lab5_recursivite_1_MVGu
         {
             const string CARACTERE_REINE = "X";
             const string CARACTERE_VIDE = "O";
-            const string CARACTERE_BORDURE_HAUT_COIN_GAUCHE = "1";
+            const string CARACTERE_BORDURE_HAUT_COIN_GAUCHE = " ";
             const string CARACTERE_BORDURE_HAUT = "_";
-            const string CARACTERE_BORDURE_HAUT_COIN_DROIT = "2";
+            const string CARACTERE_BORDURE_HAUT_COIN_DROIT = " ";
 
-            const string CARACTERE_BORDURE_BAS_COIN_GAUCHE = "3";
+            const string CARACTERE_BORDURE_BAS_COIN_GAUCHE = " ";
             const string CARACTERE_BORDURE_BAS = "\u035E";
-            const string CARACTERE_BORDURE_BAS_COIN_DROIT = "4";
+            const string CARACTERE_BORDURE_BAS_COIN_DROIT = " ";
 
             const string CARACTERE_BORDURE_COTE = "|";
 
@@ -196,11 +196,8 @@ namespace Lab5_recursivite_1_MVGu
             {
                 for (int iligne = 0; iligne < SIZE; iligne++)
                 {
-                    // Si la valeur dans la grille est différente de 0 alors présence d'une reine
-                    // La vrai vérification devrait être == _NoSln
-                    // todo
-
-                    if (_grid[iColonne, iligne] != 0)
+                    
+                    if (_grid[iColonne, iligne] == _NoSln)
                     {
                         sCaractereAjoute = CARACTERE_REINE;
                     }
