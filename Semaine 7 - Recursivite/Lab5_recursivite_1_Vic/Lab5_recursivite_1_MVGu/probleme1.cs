@@ -111,11 +111,8 @@ namespace Lab5_recursivite_1_MVGu
                     {
                         // Implique qu'il n'y pas de solution chez les enfants
                         return false;
-                    }
-
-                    
-
-                }
+                    }                
+                }            
                 else
                 {
                     // La reine n'a pas de solution possible à cette endroit
