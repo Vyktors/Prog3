@@ -13,7 +13,7 @@ namespace Lab5_recursivite_1_MVGu
         const int SIZE = 20;
         const double POURCENTAGECELLULEGRISEE = 12; //Établi le pourcentage de taches dans le tableau. Doit être entre 0 et 99;
 
-        const string title2 = "LES TACHES";
+        const string TITLE2 = "LES TACHES";
         const string CARACTERE_TACHE = "X";
         const string CARACTERE_VIDE = "\u00B7";
         const string CARACTERE_BORDURE_HAUT_COIN_GAUCHE = " ";
@@ -90,7 +90,7 @@ namespace Lab5_recursivite_1_MVGu
         //affiche le tableau avec ses données
         private void ShowGrid()
         {
-            Console.WriteLine(centerText(title2));
+            Console.WriteLine(centerText(TITLE2));
             String sCaractereAjoute = "";
 
             String[] LigneAffichage = new String[grid.GetLength(0)];
@@ -143,7 +143,7 @@ namespace Lab5_recursivite_1_MVGu
         }
        
         //Retourne le text centré par rapport à la largeur de la fenêtre
-        string centerText(string text)
+        private string centerText(string text)
         {
             string centeredText;
             centeredText = String.Format("{0," + ((Console.WindowWidth / 2) + (text.Length / 2)) + "}", text);
