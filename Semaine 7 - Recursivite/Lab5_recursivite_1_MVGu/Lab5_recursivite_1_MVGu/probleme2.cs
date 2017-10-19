@@ -10,8 +10,8 @@ namespace Lab5_recursivite_1_MVGu
     class probleme2
     {
         //Déclaration des constantes
-        const int SIZE = 20;
-        const double POURCENTAGECELLULEGRISEE = 12; //Établi le pourcentage de taches dans le tableau. Doit être entre 0 et 99;
+        const int SIZE = 18;
+        const double POURCENTAGECELLULEGRISEE = 30; //Établi le pourcentage de taches dans le tableau. Doit être entre 0 et 99;
 
         const string TITLE2 = "LES TACHES";
         const string CARACTERE_TACHE = "X";
@@ -45,24 +45,132 @@ namespace Lab5_recursivite_1_MVGu
             //(Ré)Initialisation
             IniGrid();
 
+            Console.WriteLine("\nAppuyer sur une touche pour tout effacer");
+            Console.ReadKey();
             for (int col = 0; col < grid.GetLength(0); col++)
             {
                 for (int row = 0; row < grid.GetLength(1); row++)
                 {
-                    effacerTaches(col,row);
+                    verifierTache(col,row,grid, false);
                 }
             }
-            
+
+            ShowGrid();
 
         }
 
-        private bool effacerTaches(int _col, int _row)
+        private void effacerTaches(int _col, int _row, bool[,] _grid)
         {
-            //DEBUG
-            return true;
+            grid[_col, _row] = false;
         }
 
-        //réinitialise grid avec de nouvelles taches
+
+        //Retourne vrai si une cellule grise est à côté
+        private void verifierTache(int _col, int _row, bool[,] _grid, bool pdt)
+        {
+            bool estUneTache = pdt;
+
+            if(grid[_col,_row])
+            {
+                // Check cellule à gauche
+                if (_col > 0)
+                {                               // XXX
+                    if (_grid[_col - 1, _row])  // O X
+                    {                           // XXX 
+                        effacerTaches(_col, _row, _grid);
+                        verifierTache(_col - 1, _row, _grid, true);
+                        estUneTache = true;
+                    }
+                }
+
+                // Check cellule droite
+                if (_col + 1 < grid.GetLength(1))
+                {                               // XXX
+                    if (_grid[_col + 1, _row])  // X O
+                    {                           // XXX 
+                        effacerTaches(_col, _row, _grid);
+                        verifierTache(_col + 1, _row, _grid, true);
+                        estUneTache = true;
+                    }
+                }
+
+                // Check cellule en bas
+                if (_row + 1 < grid.GetLength(0))
+                {                               // XXX
+                    if (_grid[_col, _row + 1])  // X X
+                    {                           // XOX 
+                        effacerTaches(_col, _row, _grid);
+                        verifierTache(_col, _row + 1, _grid, true);
+                        estUneTache = true;
+                    }
+                }
+
+                // Check cellule en haut
+                if (_row > 0)
+                {                               // XOX
+                    if (_grid[_col, _row - 1])  // X X
+                    {                           // XXX 
+                        effacerTaches(_col, _row, _grid);
+                        verifierTache(_col, _row - 1, _grid, true);
+                        estUneTache = true;
+                    }
+                }
+
+                //Check diagonale haut gauche
+                if (_col > 0 && _row > 0)
+                {                                   // OXX
+                    if (_grid[_col - 1, _row - 1])  // X X
+                    {                               // XXX 
+                        effacerTaches(_col, _row, _grid);
+                        verifierTache(_col - 1, _row - 1, _grid, true);
+                        estUneTache = true;
+                    }
+                }
+
+                //Check diagonale haut droite
+                if (_col > 0 && _row + 1 < grid.GetLength(1))
+                {                                   // XXO
+                    if (_grid[_col - 1, _row + 1])  // X X
+                    {                               // XXX 
+                        effacerTaches(_col, _row, _grid);
+                        verifierTache(_col - 1, _row + 1, _grid, true);
+                        estUneTache = true;
+                    }
+                }
+
+                //Check diagonale bas gauche
+                if (_col > 0 && _row + 1 < grid.GetLength(0))
+                {                                   // XXX
+                    if (_grid[_col - 1, _row + 1])  // X X
+                    {                               // OXX 
+                        effacerTaches(_col, _row, _grid);
+                        verifierTache(_col - 1, _row + 1, _grid, true);
+                        estUneTache = true;
+                    }
+                }
+
+                //Check diagonale bas droite
+                if (_col + 1 < grid.GetLength(1) && _row + 1 < grid.GetLength(0))
+                {                                   // XXX
+                    if (_grid[_col + 1, _row + 1])  // X X
+                    {                               // XXO 
+                        effacerTaches(_col, _row, _grid);
+                        verifierTache(_col + 1, _row + 1, _grid, true);
+                        estUneTache = true;
+                    }
+                }
+            }
+            if(estUneTache)
+            {
+                effacerTaches(_col, _row, _grid);
+            }
+
+        }
+
+            
+        
+
+        //réinitialise grid avec de nouvelles cellules grises. TRUE est une cellule grise
         private void IniGrid()
         { 
             double devientTache;

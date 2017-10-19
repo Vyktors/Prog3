@@ -16,11 +16,16 @@ namespace Lab5_recursivite_1_MVGu
         //Déclaration des variables
         int nbrDisques;
         int nbrDep;
-
+        string nomTour1;
+        string nomTour2;
+        string nomTourPar;
+        
         //S'exécute qu'une seule fois lors du démarrage du programme
         public probleme3()
         {
-
+            nomTour1 = "A";
+            nomTour2 = "B";
+            nomTourPar = "X";
         }
 
         //S'exécute chaque fois que l'utilisateur choisi de partir le problème #3
@@ -28,6 +33,7 @@ namespace Lab5_recursivite_1_MVGu
         {
             //(Ré) Initialisation
             nbrDep = 0;
+            
 
             //
             Console.WriteLine(centerText(TITLE3));
@@ -52,12 +58,13 @@ namespace Lab5_recursivite_1_MVGu
                 }
             } while (nbrDisques == 0 || nbrDisques > MAXDISQUES);
 
-            Tours(nbrDisques, 'A', 'B', 'T');
+            Tours(nbrDisques, nomTour1, nomTour2, nomTourPar);
 
+            Console.WriteLine("\nDéplacement de " + nbrDisques + " disques de la tour " + nomTour1 + " à la tour " + nomTour2 + " par la tour " + nomTourPar + " se fait en " + nbrDep + " déplacements!" );
         }
 
-
-        private void Tours (int _nbrDisques, char Tour1, char Tour2, char TourPar)
+        //Algo
+        private void Tours (int _nbrDisques, string Tour1, string Tour2, string TourPar)
         {
             if (_nbrDisques == 1)
             {
@@ -71,7 +78,8 @@ namespace Lab5_recursivite_1_MVGu
             }
         }
 
-        private void Transport(int disque, char Tour1, char Tour2)
+        //Affiche le transport
+        private void Transport(int disque, string Tour1, string Tour2)
         {
             nbrDep++;
             Console.WriteLine("Déplacement #"+ nbrDep +": Transporte un disque de la tour " + Tour1 + " à la tour " + Tour2);
