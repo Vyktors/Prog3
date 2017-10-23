@@ -19,13 +19,57 @@ namespace Lab6_Bataille_MVGu
             cpt_carte = 0;
         }
 
-        public void Empiler(Carte carte)
+        public void Empiler(Carte _carte)
         {
             //Si le nbr de cartes de ma pile est rendu à son maximum
             if(cpt_carte == tailleMax)
             {
                 Console.WriteLine("Taille maximale de la pile atteinte, impossible d'ajouter un élément");
+                return;
             }
+            else
+            {
+                Carte nouvelleCarte = new Carte();
+                nouvelleCarte.Valeur = _carte.Valeur;
+                nouvelleCarte.CarteSuivante = ancre;
+                ancre = nouvelleCarte;
+                cpt_carte++; 
+            }
+        }
+
+
+        public bool PileVide()
+        {
+            if(ancre == null)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+        public void Depiler()
+        {
+            Carte x; //Dernière carte à avoir été retirée
+
+            if(!PileVide())
+            {
+                x = ancre;
+                ancre = ancre.CarteSuivante;
+                cpt_carte--;
+                Console.WriteLine("La carte " + x.Valeur + "de puissance " + x.Bonus+ " a été retiré ");
+            }
+            else
+            {
+                Console.WriteLine("La pile est vide, impossible de retirer une carte");
+            }
+        }
+
+        public int Taille_Pile()
+        {
+            return cpt_carte;
         }
     }
 }
