@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab6_Bataille_MVGu", "Lab6_Bataille_MVGu\Lab6_Bataille_MVGu.csproj", "{4C7D5DC9-8DE7-44DE-A1A0-CA9FFE6DF54B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C7D5DC9-8DE7-44DE-A1A0-CA9FFE6DF54B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C7D5DC9-8DE7-44DE-A1A0-CA9FFE6DF54B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C7D5DC9-8DE7-44DE-A1A0-CA9FFE6DF54B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C7D5DC9-8DE7-44DE-A1A0-CA9FFE6DF54B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2DBA2BCB-5B5E-48D6-A3DF-16617552D713}
+	EndGlobalSection
+EndGlobal

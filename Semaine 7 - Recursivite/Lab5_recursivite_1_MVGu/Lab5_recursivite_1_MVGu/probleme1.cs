@@ -10,7 +10,7 @@ namespace Lab5_recursivite_1_MVGu
 {
     class probleme1
     {
-        const int SIZE = 8;
+        const int SIZE = 8; //Défini le nombre de reines ainsi que la grandeur de l'échequier
         int[,] grid;
 
         int CptBonneSolution;
