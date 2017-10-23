@@ -71,5 +71,10 @@ namespace Lab6_Bataille_MVGu
         {
             return cpt_carte;
         }
+
+        public int TailleMax()
+        {
+            return tailleMax;
+        }
     }
 }

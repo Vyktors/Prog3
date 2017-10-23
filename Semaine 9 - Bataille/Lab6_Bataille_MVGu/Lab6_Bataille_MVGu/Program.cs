@@ -16,7 +16,7 @@ namespace Lab6_Bataille_MVGu
     {
         static void Main(string[] args)
         {
-
+            Bataille bataille = new Bataille();
 
         }
     }
