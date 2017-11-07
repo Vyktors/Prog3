@@ -29,8 +29,7 @@ namespace Lab6_Bataille_MVGu
             }
             else
             {
-                Carte nouvelleCarte = new Carte();
-                nouvelleCarte.Valeur = _carte.Valeur;
+                Carte nouvelleCarte = new Carte(_carte.Valeur, _carte.Bonus, _carte.Couleur);                                
                 nouvelleCarte.CarteSuivante = ancre;
                 ancre = nouvelleCarte;
                 cpt_carte++; 
@@ -50,7 +49,7 @@ namespace Lab6_Bataille_MVGu
             }
         }
 
-        public void Depiler()
+        public Carte Depiler()
         {
             Carte x; //Dernière carte à avoir été retirée
 
@@ -59,11 +58,13 @@ namespace Lab6_Bataille_MVGu
                 x = ancre;
                 ancre = ancre.CarteSuivante;
                 cpt_carte--;
-                Console.WriteLine("La carte " + x.Valeur + "de puissance " + x.Bonus+ " a été retiré ");
+                //Console.WriteLine("La carte " + x.Valeur + " de puissance " + x.Bonus+ " a été retiré ");
+                return x;
             }
             else
             {
                 Console.WriteLine("La pile est vide, impossible de retirer une carte");
+                return null;
             }
         }
 

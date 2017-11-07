@@ -8,18 +8,16 @@ namespace Lab6_Bataille_MVGu
 {
     class Carte
     {
-        Random rdm = new Random();
-
         private Carte carteSuivante = null;
         private int valeur = 0;
         private int bonus = 0;
         private int couleur = 0;
 
-        public Carte()
+        public Carte(int _valeur, int _bonus, int _couleur)
         {
-            valeur = rdm.Next(1, 11);
-            bonus = rdm.Next(1, 5);
-            couleur = rdm.Next(0, 2);
+            valeur = _valeur;
+            bonus = _bonus;
+            couleur = _couleur;
         }
 
         public Carte CarteSuivante
